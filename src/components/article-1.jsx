@@ -4,7 +4,7 @@ function Article1(props) {
             <div className="bg-[#f4f5f7] lg:p-32 lg:px-60">
                 <div className="">
                     <div>
-                        <h1 className="text-5xl text-[#30314e] text-center lg:text-left leading-[60px] lg:leading-[70px] pt-20 lg:pt-0">
+                        <h1 className="font-light text-5xl text-[#30314e] text-center lg:text-left leading-[60px] lg:leading-[70px] pt-20 lg:pt-0">
                             Why choose Easybank?
                         </h1>
                         <br />
@@ -25,7 +25,7 @@ function Article1(props) {
                             </div>
                             <h2 className="text-gray-600 text-2xl text-center lg:text-left pt-10">{article.name}</h2>
 
-                            <p className="p-3 text-gray-500 text-center lg:text-left text-xl lg:w-[320px] leading-8 lg:leading-[32px] pt-7 pb-10">{article.title}</p>
+                            <p className="p-3 lg:p-0 text-gray-500 text-center lg:text-left text-xl lg:w-[320px] leading-8 lg:leading-[32px] pt-7 pb-10">{article.title}</p>
                                                         </div>
                            
                         </div>

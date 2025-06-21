@@ -4,6 +4,8 @@ import Nav from './components/Nav'
 import Background from './components/background'
 import Hero from './components/hero-section'
 import Article1 from './components/article-1'
+import Latest from './components/latest'
+import Footer from './components/footer'
 
 function App() {
 
@@ -67,7 +69,8 @@ function App() {
         {/* <Background /> */}
         <Hero />
         <Article1 article = {article} />
-
+        <Latest latest = {latest} />
+        <Footer />
       </div>
   )
 }
