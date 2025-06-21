@@ -2,7 +2,7 @@ import img from "/public/assets/Screenshot from 2025-06-21 03-09-31.png"
 
 function Footer() {
   return (
-    <div className='bg-[#2d314e]  '>
+    <div className='bg-[#2d314e]  mt-10 lg:mt-0'>
       <div className=' p-10 lg:mx-36 flex flex-col lg:flex-row lg:justify-between lg:items-center lg:p-20 gap-10 text-center lg:text-left'>
         <div>
             <div className="flex justify-center lg:justify-start">
