@@ -5,8 +5,7 @@ function Background(){
 
     return(
         <div>
-            <img className="hidden lg:flex translate-x-[600px] -translate-y-[250px] w-[ ] " src={desktop} alt="" />
-            <img className="lg:hidden w-[530px] " src={mobile} alt="" />
+            <img className="lg:hidden w-[530px] sticky " src={mobile} alt="" /> 
         </div>
     )
 }

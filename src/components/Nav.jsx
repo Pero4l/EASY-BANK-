@@ -4,7 +4,7 @@ import hamburger from "/public/assets/icon-hamburger.svg"
 function Nav(){
 
     return(
-        <nav className="flex justify-between p-7 bg-white lg:px-56 items-center">
+        <nav className="flex justify-between p-7 bg-white lg:px-56 items-center sticky z-10">
             <div>
                 <img className=" lg:w-44" src={logo} alt="" />
             </div>

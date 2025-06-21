@@ -66,7 +66,7 @@ function App() {
   return (
       <div>
         <Nav />
-        {/* <Background /> */}
+        <Background />
         <Hero />
         <Article1 article = {article} />
         <Latest latest = {latest} />

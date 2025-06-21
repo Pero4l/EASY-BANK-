@@ -1,6 +1,6 @@
 function Article1(props) {
     return (
-        <div className="pt-32 lg:pt-0">
+        <div className="pt-32 lg:pt-0 lg:mt-[-350px] ">
             <div className="bg-[#f4f5f7] lg:p-32 lg:px-60">
                 <div className="">
                     <div>
