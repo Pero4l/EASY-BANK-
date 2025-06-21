@@ -1,4 +1,4 @@
-
+import img from "/public/assets/Screenshot from 2025-06-21 03-09-31.png"
 
 function Footer() {
   return (
@@ -6,7 +6,7 @@ function Footer() {
       <div className=' p-10 lg:mx-36 flex flex-col lg:flex-row lg:justify-between lg:items-center lg:p-20 gap-10 text-center lg:text-left'>
         <div>
             <div className="flex justify-center lg:justify-start">
-            <img src="/public/assets/Screenshot from 2025-06-21 03-09-31.png" className='text-white w-40' alt="logo" />
+            <img src={img} className='text-white w-40' alt="logo" />
             </div>
             <div className='flex gap-4 mt-8 justify-center lg:justify-start'>
                 <img src="/assets/icon-facebook.svg" alt="facebook" />
